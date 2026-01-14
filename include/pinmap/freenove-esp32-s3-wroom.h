@@ -36,7 +36,7 @@
 #define PIN_LED_WIFI            GPIO_NUM_2  // led.cpp
 #define PIN_LED_BUS             GPIO_NUM_NC
 #define PIN_LED_BT              GPIO_NUM_NC
-#define PIN_LED_RGB             GPIO_NUM_48
+#define PIN_LED_RGB             GPIO_NUM_NC
 
 /* Audio Output */
 #define PIN_DAC1                GPIO_NUM_NC
@@ -61,16 +61,16 @@
 //#define IEC_INVERTED_LINES
 
 // Reset line is available
-#define IEC_HAS_RESET
+//#define IEC_HAS_RESET
                                                 //    WIRING
                                                 //  C64    DIN6
-#define PIN_IEC_ATN             GPIO_NUM_4      //  ATN    3
-#define PIN_IEC_CLK_IN          GPIO_NUM_5      //  CLK    4
-#define PIN_IEC_CLK_OUT         GPIO_NUM_5      //
-#define PIN_IEC_DATA_IN         GPIO_NUM_6      //  DATA   5
-#define PIN_IEC_DATA_OUT        GPIO_NUM_6      //
-#define PIN_IEC_SRQ             GPIO_NUM_7      //  SRQ    1
-#define PIN_IEC_RESET           GPIO_NUM_8      //  RESET  6
+#define PIN_IEC_ATN             GPIO_NUM_47     //  ATN    3
+#define PIN_IEC_CLK_IN          GPIO_NUM_21     //  CLK    4
+#define PIN_IEC_CLK_OUT         GPIO_NUM_21     //
+#define PIN_IEC_DATA_IN         GPIO_NUM_20     //  DATA   5
+#define PIN_IEC_DATA_OUT        GPIO_NUM_20     //
+#define PIN_IEC_SRQ             GPIO_NUM_19     //  SRQ    1
+#define PIN_IEC_RESET           GPIO_NUM_NC     //  RESET  6
 //                            SIDE OF SD SLOT   //  GND    2
 
 /* Modem/Parallel Switch */
